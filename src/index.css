@@ -23,14 +23,16 @@
 }
 .container{
   position:absolute;
-  top:50%;
+  top:30%;
   left:50%;
   transform: translate(-50%,-50%);
 }
 .meme-image{
-  width: 447px;
+  width: 100%;
+  max-width: 447px;
+  height: auto;
   position:absolute;
-  margin-top: -90px;
+  padding-top: 20px;
 }
 .input{
 width:230px;
