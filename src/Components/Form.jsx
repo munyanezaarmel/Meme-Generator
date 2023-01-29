@@ -1,9 +1,12 @@
 import React from 'react'
 import body from '../images/body.png';
-import data from '../data';
+import memesData from '../memesData.js';
 const Form =()=>{
     function getMemeImage(){
-     console.log(data)
+    const memeData=memesData.data.memes
+    const randomNumber=Math.floor(Math.random()*memeData.length)
+    const {url}=memeData[randomNumber]
+    console.log(url)
 
     }
     return (

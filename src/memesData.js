@@ -1,4 +1,4 @@
-const data =[
+export default
     {
         "success": true,
         "data": {
@@ -906,5 +906,4 @@ const data =[
             ]
         }
     }
-]
-export default data
+
