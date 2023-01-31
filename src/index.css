@@ -54,3 +54,28 @@ display: flex;
 .form-container{
   padding: 20px;
 }
+.meme-image-container {
+  position: relative;
+}
+
+.meme-text-top {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.meme-text-bottom {
+  position: absolute;
+  top: 210px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px black;
+}
